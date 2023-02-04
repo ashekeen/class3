@@ -1,0 +1,97 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+header {
+		background-color: #d2d3d5;
+		height: 50px;
+}
+nav {
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%; 
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center;
+}
+p{
+	margin: 0;
+	font-size: 20px;
+}
+nav .logo{
+	flex-basis: 20%;
+	text-align-last: center;
+}
+nav .menu{
+	flex-basis: 80%;
+}
+.menu a{
+    color: #c9215f;
+    font-size: 15px;
+    padding: 6px 8px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-weight: 500;
+}
+.menu a:hover{
+	  box-shadow: 0 0 0 1px #c9215f;
+}
+.logo img{
+	max-width: 40px;
+}
+.hero-banner {
+    background-image: url(../images/pattern4.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    padding: 64px 0;
+}
+.hero-banner-content{
+    /* width: 811px; */
+    margin: 0px 84px;
+    max-width: 685px;
+}
+.hero-banner-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    color: #c9215f;
+}
+.gallery-section{
+	padding: 100px 0;
+	background: rgb(253,187,45);
+background: linear-gradient(21deg, rgba(253,187,45,0.58031337535014) 28%, rgba(34,192,195,0.9641981792717087) 49%);
+}
+.gallery{width: 1200px;margin: 0 auto;display: flex;flex-wrap: wrap;}
+.gallery div{
+    padding: 8px;
+    flex-basis: 25%;
+    box-sizing: border-box;
+}
+.gallery div img{
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+footer{
+
+}
+footer p{
+    padding: 26px;
+    text-align: center;
+    font-size: 12px;
+    color: #c9215f;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
